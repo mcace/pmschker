@@ -32,7 +32,7 @@ public class Doc {
      * 实现原理：主要使用注解+拦截器的方式来实现校验。
      * 使用方式：在需要校验的Controller类或方法上标记注解，即可实现权限校验
      * <p>
-     * 注解目前有校验登陆和校验角色权限两种，在{@code com.chinaubi.aop.framework.annotation}包下，login包内是校验登陆的注解，
+     * 注解目前有校验登陆和校验角色权限两种，在{@code io.mcsoft.aop.framework.annotation}包下，login包内是校验登陆的注解，
      * permission包内是校验角色权限的注解。同时，校验角色权限的注解已经和校验登陆的注解相结合，所以如果使用了校验角色权限的注解，
      * 则不需要重复使用RequireLogin注解。
      * <p>
